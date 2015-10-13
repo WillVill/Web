@@ -1,0 +1,181 @@
+
+/*--------------------------------------------------------------------ALL PAGES------------------------------------------------------------------*/
+
+/* BACKGROUNDS */
+
+.collectionPage{
+	background-color: #F6F6F6; 
+}
+
+.home{
+	background: url("images/wallpaper.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+
+
+/* HEADER DESIGN */
+
+/* Header layout */
+
+.nav-header{	
+	background: rgba(255, 255, 255, 0.6);
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100px;
+}
+
+
+/* Header elements */
+
+.brand{
+	font-family: 'Permanent Marker', cursive;
+	float: left;
+	margin-left: 50px;
+	padding: 0;
+	font-size: 200%;
+	padding-right: 50px;
+	margin-top: -10px;
+}
+
+.brand a{
+	text-decoration: none;
+	color: #030303;
+}
+
+.minor-nav a{
+	font-size: 1.8em;
+	text-decoration: none;
+	font-weight: bold;
+	color: #666;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.minor-nav a:link{
+	text-decoration: none;
+}
+
+.minor-nav a:hover{
+	color: #030303;
+}
+
+ul{	
+	padding: 40px;
+}
+
+ul li{
+	display: inline;
+	max-width: 99%;
+	padding: 60px;
+	position: relative;
+}
+
+ul li ul {
+	padding: 0px;
+	position: absolute;
+	top: 90px;
+	right: 20px;
+	height: 0px;
+	width: 190px;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+}
+
+ul li ul li { 
+	padding: 13px 0px 13px 15px;
+	background: rgba(255, 255, 255, 0.6); 
+	display: block; 
+	color: #666;
+	font-size: 11px;
+}
+
+ul li ul li:hover 
+{ 
+	color: #030303; 
+}
+
+ul li:hover ul {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+
+/*--------------------------------------------------------- SEPERATE PAGE DESIGNS -----------------------------------------------------------*/
+
+
+
+/* HOMEPAGE FOOTER */
+
+.foot-nav li{
+	font-size: 1em;
+	display: inline;
+	color: #030303;
+	float: left;
+	text-decoration: none;
+	list-style-type: none;
+	padding: 1em;
+	bottom: 0;
+	position: absolute;
+}
+
+
+
+
+
+/* COLLECTIONS PAGE: IMAGE LAYOUT */
+
+.peopleOfTheWorld{
+	margin-top: 100px;
+}
+
+.peopleOfTheWorld table{
+	width: 100%;
+	align: center;
+}
+
+.peopleOfTheWorld tr:nth-child(even){
+	padding-bottom: 10px; 
+}
+
+.peopleOfTheWorld tr:nth-child(odd) {
+	padding-top: 30px;
+	display: block;
+}
+
+.peopleOfTheWorld td {
+	display: block;
+}
+
+.peopleOfTheWorld img{
+	width:500px;
+	border-style:solid;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.peopleOfTheWorld p{
+	text-align: center;
+	font-weight:  bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
